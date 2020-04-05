@@ -2,7 +2,7 @@
 
 FROM zookeeper:%ZOOKEEPER_VERSION%
 
-# This build runs `apt-get update` against official Amazon corretto,
+# This build runs `apt-get update` against Docker official ZooKeeper image,
 # to mitigate any known vulnerabilities due to gaps caused by
 # offical image release cycle.
 
